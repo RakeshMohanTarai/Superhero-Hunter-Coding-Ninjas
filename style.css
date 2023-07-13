@@ -1,0 +1,197 @@
+body {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url('Marvel images/anvenger.jpg');
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar img {
+    height: 30px;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #logo {
+    font-size: 37px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: yellow;
+    letter-spacing: 2px;
+    transition: transform 0.3s ease-in-out;
+    cursor: default;
+    font-style: italic;
+  }
+  
+  #logo:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  .navbar .nav-link {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-container input[type="search"] {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: linear-gradient(135deg, #845EC2, #D65DB1, #FF6F91);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+  
+  .search-container button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .hero-details {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+  }
+  
+  #details {
+    height: 400px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    overflow-y: auto;
+    padding-left: 15px;
+  }
+
+  .hero-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  #auto-complete li {
+    color: white;
+  }
+  
+  .hero-info {
+    margin-left: 30px;
+  }
+  
+  .hero-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .hero-info p {
+    margin-bottom: 10px;
+  }
+  
+  .hero-info .occupation {
+    margin-top: 20px;
+  }
+  
+  .hero-info .powerstats {
+    margin-top: 20px;
+  }
+  
+  .hero-info .powerstats span {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .hero-info #favbtn {
+    display: block;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #fevList {
+    display: none;
+    margin-top: 40px;
+  }
+  
+  #fevList.visible {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  #fevList .outerbox {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  #fevList .innerbox img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  #fevList h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  #fevList button {
+    display: block;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

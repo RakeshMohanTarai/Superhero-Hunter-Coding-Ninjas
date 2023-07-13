@@ -1,0 +1,95 @@
+body {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url('Marvel images/anvenger.jpg');
+  }
+  
+  #favlistitem {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  #outerbox {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+    background-image: url('Marvel images/iron-man.jpg');
+  }
+  
+  #outerbox:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  #innerbox {
+    margin: 10px;
+  }
+  
+  h5 {
+    margin: 10px 0;
+    color:white;
+  }
+  
+  button {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #innerbox img {
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+  }
+  
+  #logo {
+    font-size: 37px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: yellow;
+    letter-spacing: 2px;
+    transition: transform 0.3s ease-in-out;
+    cursor: default;
+    font-style: italic;
+  }
+  
+  #logo:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  #logoimage {
+    height: 60px;
+    width: 180px;
+  }
+  
+  .nav-link {
+    color: white;
+    height:35px;
+    width:80px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid red;
+    background-color: rgb(73, 43, 246);
+    padding: 2px 13px;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: white;
+    color: red;
+  }
+  
+  
